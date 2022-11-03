@@ -64,3 +64,26 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Pautas del desarrollador para poder ejecurtar el back del proyecto
+
+1#  Configurar el servidor de apache (en mi caso estoy usando el sistema operativo windows y lo realizo a traves 
+    de un servidor local que en este caso es xampp)
+
+2#  Configurar y crear la base de datos de que se menciona en el archivo ".env_example" en propiedad "DB_DATABASE" 
+    solo crear sin crear tablas ni algo mas
+
+3#  Instalar composer en caso de no tenerlo installado
+
+4#  correr el siguiente para descargar las despendencia del proyecto laravel: composer install 
+    este comando descargara la dependencias pertinente de PHP para la ejecion de la api (a nivel local).
+
+5#  crear el archivo .env y copiar lo que hay en el archivo .env.example en este o en su defecto renombrar 
+    el archivo ".env.example" a ".env"
+
+6#  ejecutar el comando de "php artisan migrate" para que este cree las tablas con respecto a base se datos que
+    que se definio en el archivo .env
+
+7#  ejecutar el siguiente comando: "php artisan serve" ubicado en la carpeta raiz del proyecto esto con el fin 
+    de correr el servidor a nivel local
+    

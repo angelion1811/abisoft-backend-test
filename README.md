@@ -86,4 +86,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 7#  ejecutar el siguiente comando: "php artisan serve" ubicado en la carpeta raiz del proyecto esto con el fin 
     de correr el servidor a nivel local
+
+Notas: hubiera gustado dockerizar el proyecto para realizar una implementacion mas facil pero la verdad apenas es 
+    que apenas estoy entiendo la funcionalidad de docker y no me tiempo para poner en esta practica.
     
